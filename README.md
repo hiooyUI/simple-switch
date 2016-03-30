@@ -1,2 +1,19 @@
 # simple-switch
 A simple switch beautify your checkbox!
+
+Support swipping left / right
+
+##how to use it?
+```
+<link rel="stylesheet" href="simple-switch.min.css" />
+<script src="your path/jquery.js"></script>
+<script src="jquery.simpleswitch.min.js"></script>
+```
+```
+$("obj").simpleSwitch();
+```
+check the demo.html example.
+
+or
+
+[live Demo](http://sandbox.runjs.cn/show/iel8tvl4), you can use mobile phone mode to view the demo for better experience!
