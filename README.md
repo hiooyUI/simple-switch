@@ -1,5 +1,5 @@
 # simple-switch
-A simple switch beautify your checkbox!
+A simple switch jQuery plugin to beautify your checkbox
 
 Support swipping left / right
 
