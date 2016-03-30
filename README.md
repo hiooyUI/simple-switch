@@ -10,7 +10,7 @@ Support swipping left / right
 <script src="jquery.simpleswitch.min.js"></script>
 ```
 ```
-$("obj").simpleSwitch();
+$("yourcheckbox").simpleSwitch();
 ```
 check the demo.html example.
 
