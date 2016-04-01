@@ -11,7 +11,7 @@ Support swipping left / right
 <script src="your path/jquery.js"></script>
 <script src="jquery.simpleswitch.min.js"></script>
 ```
-```
+```javascript
 $("yourcheckbox").simpleSwitch();
 ```
 check the demo.html example.
