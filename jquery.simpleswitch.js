@@ -2,10 +2,10 @@
 //simpleSwitch jQuery plugein by Nelson Kuang 2016.3.30
     $.fn.extend({
         switchReset: function () {
-            this.prop('checked', false).parent().removeClass('checked').addClass('unchecked');
+            return this.prop('checked', false).parent().removeClass('checked').addClass('unchecked');
         },
         switchToggle: function($state) {
-            $state ? this.prop('checked', $state).parent().removeClass('unchecked').addClass('checked') : this.prop('checked', $state).parent().removeClass('checked').addClass('unchecked');
+           return $state ? this.prop('checked', $state).parent().removeClass('unchecked').addClass('checked') : this.prop('checked', $state).parent().removeClass('checked').addClass('unchecked');
         },
         simpleSwitch: function () {
             //replace all the checkboxes with simple switches
