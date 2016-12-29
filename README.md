@@ -18,4 +18,4 @@ check the demo.html example.
 
 or
 
-[live Demo](http://sandbox.runjs.cn/show/iel8tvl4), you can use mobile phone mode to view the demo for better experience!
+[live Demo](http://www.iampua.com/pui/simple-switch.html), you can use mobile phone mode to view the demo for better experience!
