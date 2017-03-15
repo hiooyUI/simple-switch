@@ -5,7 +5,7 @@ Support swipping left / right
 
 ![Demo](http://7xsj8c.com2.z0.glb.clouddn.com/img/20160330111443.png) 
 
-##how to use it?
+## how to use it?
 ```
 <link rel="stylesheet" href="simple-switch.min.css" />
 <script src="your path/jquery.js"></script>
