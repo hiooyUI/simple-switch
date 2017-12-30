@@ -12,12 +12,8 @@
             this.each(function () {
                 var This = $(this);
                 This.addClass("simple-switch");
-                var outerHTML = This.prop("outerHTML"),
-                    html = "";
-                html += '<label class="simple-switch-outter">';
-                html += outerHTML;
-                html += '<span class="simple-switch-circle"></span></label>';
-                This.replaceWith(html);
+                This.wrap( "<label class='simple-switch-outter'></label>" );
+                This.parent().append($("<span class=\"simple-switch-circle\"></span>"));
             });
             //initialization
             $(".simple-switch").each(function () {
